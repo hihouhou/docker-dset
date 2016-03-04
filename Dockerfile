@@ -9,7 +9,7 @@ FROM centos:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-# Update & install packages for installing kippo 
+# Update & install packages for installing dset 
 RUN yum update -y && \
     yum install -y wget net-tools openssl which 
 
